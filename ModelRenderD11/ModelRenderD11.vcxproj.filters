@@ -35,9 +35,6 @@
     <Image Include="cup.jpg">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="..\Debug\ModelRenderD11\cup.jpg">
-      <Filter>Assets</Filter>
-    </Image>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
@@ -46,6 +43,6 @@
     <None Include="ModelRenderD11_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="cup.cmo" />
-    <None Include="..\Debug\ModelRenderD11\cup.cmo" />
+    <None Include="cup.mtl" />
   </ItemGroup>
 </Project>

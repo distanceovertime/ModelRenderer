@@ -270,6 +270,10 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="cup.cmo">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="cup.mtl" />
     <None Include="ModelRenderD11_TemporaryKey.pfx" />
     <None Include="packages.config" />
   </ItemGroup>
@@ -279,6 +283,7 @@
     <Image Include="Assets\SplashScreen.scale-200.png" />
     <Image Include="Assets\StoreLogo.png" />
     <Image Include="Assets\WideLogo.scale-200.png" />
+    <Image Include="cup.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
