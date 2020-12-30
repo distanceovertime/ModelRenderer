@@ -14,7 +14,11 @@
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="Game.h" />
-    <ClInclude Include="StepTimer.h" />
+    <ClInclude Include="pocketsphinx.h" />
+    <ClInclude Include="..\..\..\..\Downloads\pocketsphinx-5prealpha-win32\pocketsphinx\include\pocketsphinx_export.h" />
+    <ClInclude Include="..\..\..\..\Downloads\pocketsphinx-5prealpha-win32\sphinxbase\include\sphinxbase\ngram_model.h" />
+    <ClInclude Include="..\..\..\..\Downloads\pocketsphinx-5prealpha-win32\sphinxbase\include\sphinxbase\pio.h" />
+    <ClInclude Include="..\..\..\..\Downloads\pocketsphinx-5prealpha-win32\sphinxbase\include\sphinxbase\sphinxbase_export.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\Logo.scale-200.png">

@@ -4,6 +4,7 @@
 
 #include "pch.h"
 #include "Game.h"
+#include "pocketsphinx.h"
 
 extern void ExitGame() noexcept;
 
